@@ -1,4 +1,4 @@
-## Diff Reset Plugin [![License](https://gh.kaos.st/apache2.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+## Diff Reset Plugin [![codebeat badge](https://codebeat.co/badges/3d31b52f-b534-4543-87db-f3e36392dd97)](https://codebeat.co/projects/github-com-essentialkaos-sublime-plugin-diff-reset-master) [![License](https://gh.kaos.st/apache2.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 Simple plugin for Sublime Text 3.2+ for resetting diff after saving file.
 
