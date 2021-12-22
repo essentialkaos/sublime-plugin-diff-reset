@@ -4,14 +4,23 @@ Simple plugin for Sublime Text 3.2+ for resetting diff after saving file.
 
 ### Installation
 
-1. Download the latest versions of `diff_reset_on_save.py` file;
+#### macOS
+
+Open `Terminal.app` and do:
+
 ```bash
-cd "~/Library/Application\ Support/Sublime\ Text\ 3/Packages/"
-wget https://kaos.sh/sublime-plugin-diff-reset/diff_reset_on_save.py
-# or
-curl https://kaos.sh/sublime-plugin-diff-reset/diff_reset_on_save.py -o "~/Library/Application\ Support/Sublime\ Text\ 3/Packages/diff_reset_on_save.py"
+curl -OL# https://kaos.sh/sublime-plugin-diff-reset/diff_reset_on_save.py
+mv diff_reset_on_save.py "$HOME/Library/Application Support/Sublime Text/Packages/User/"
 ```
-2. Copy it into directory `Sublime Text 3/Packages/User/`;
+
+#### Windows
+
+Press <kbd>Win+R</kbd>, type `powershell` and press Enter. Then do:
+
+```powershell
+Invoke-WebRequest -Uri "https://kaos.sh/sublime-plugin-diff-reset/diff_reset_on_save.py" -OutFile diff_reset_on_save.py
+Move-Item -Force -Path diff_reset_on_save.py -Destination "$HOME\AppData\Roaming\Sublime Text 4\Packages\User\"
+```
 
 ### License
 
