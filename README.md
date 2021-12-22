@@ -15,7 +15,7 @@ mv diff_reset_on_save.py "$HOME/Library/Application Support/Sublime Text/Package
 
 #### Windows
 
-Press <kbd>Win+R</kbd>, type `powershell` and press Enter. Then do:
+Press <kbd>Win</kbd>+<kbd>R</kbd>, type `powershell` and press Enter. Then do:
 
 ```powershell
 Invoke-WebRequest -Uri "https://kaos.sh/sublime-plugin-diff-reset/diff_reset_on_save.py" -OutFile diff_reset_on_save.py
