@@ -19,7 +19,7 @@ Press <kbd>Win</kbd>+<kbd>R</kbd>, type `powershell` and press Enter. Then do:
 
 ```powershell
 Invoke-WebRequest -Uri "https://kaos.sh/sublime-plugin-diff-reset/diff_reset_on_save.py" -OutFile diff_reset_on_save.py
-Move-Item -Force -Path diff_reset_on_save.py -Destination "$HOME\AppData\Roaming\Sublime Text 4\Packages\User\"
+Move-Item -Force -Path diff_reset_on_save.py -Destination "$HOME\AppData\Roaming\Sublime Text\Packages\User\"
 ```
 
 ### License
